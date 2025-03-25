@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(52, 52, 52);
+}
+
+.carousel{
+    margin-top: 40px;
+}
+
+
+.carousel-inner :nth-child(1) img{
+    height: 550px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/21/18/31/footwear-5427076_1280.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner :nth-child(2) img{
+    height: 550px;
+    background-image: url(https://cdn.pixabay.com/photo/2024/03/19/20/37/ai-generated-8644113_1280.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner :nth-child(3) img{
+    height: 550px;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/04/00/06/ball-3128770_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.timer{
+    width: 16vw;
+    height: 120px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(52, 52,52);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vh;
+    color: lightgrey;
+    border-radius: 100px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    margin-top: 20px;
+    width: 600px;
+    text-align: center;
+    color: lightgray;
+}
+
+
+
+
