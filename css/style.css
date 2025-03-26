@@ -58,10 +58,13 @@ body{
 }
 .para{
     margin-top: 20px;
-    width: 600px;
+    width: auto;
     text-align: center;
     color: lightgray;
 }
+
+
+
 
 
 
