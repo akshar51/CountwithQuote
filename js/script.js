@@ -31,14 +31,13 @@ let timer = ()=>{
     let oldTime = count;
     let startTimer = setInterval(()=>{
         if(count == 0){
-            if(minute > 0){
-                minute--;
-                count = oldTime;
-                // currSlide(-1);
-            }
-            else{
+            if(slideIdx >= slide.length - 1){
                 clearInterval(startTimer);
                 return;
+            }
+            else{
+                count = oldTime;
+                currSlide(1);
             }
         }
         else{
@@ -46,7 +45,7 @@ let timer = ()=>{
         }
         document.querySelector(".count").innerText = count > 9 ?`${count}` : ` 0${count}` ;
         document.querySelector(".min").innerText = minute < 10 ? `0${minute} :`:`0${minute}:`;
-    },500)
+    },1000)
 }
 
 
@@ -62,7 +61,6 @@ let currSlide = (n)=>{
         slideIdx = slide.length - 1;
     }
     nxtSlide(slideIdx);
-    
 }
 
 let nxtSlide = (para)=>{
