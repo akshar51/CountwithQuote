@@ -3,6 +3,8 @@
 ## Overview
 This project implements a **carousel slider** with a built-in **countdown timer** and **dynamic quote display**. The carousel automatically transitions between slides based on a timer, and each slide is associated with a quote that updates accordingly.
 
+Live Demo: [Count with Quote](https://countwith-quote.vercel.app/)
+
 ---
 
 ## Technologies Used
