@@ -21,7 +21,6 @@ let arr = [
     }
 ]
 
-
 // ------------- TIMER ----------------//
 window.onload=()=>{
     timer();
@@ -47,8 +46,6 @@ let timer = ()=>{
         document.querySelector(".min").innerText = minute < 10 ? `0${minute} :`:`0${minute}:`;
     },1000)
 }
-
-
 
 // ------------------- SLIDER ---------------//
 let currSlide = (n)=>{
